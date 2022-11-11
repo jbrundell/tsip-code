@@ -5,10 +5,10 @@ Feel free to add decoding for more. :)
 
 
 Compile:
-
+```
 []$ make readTSIP
 cc     readTSIP.c   -o readTSIP
-
+```
 
 Run:
 
