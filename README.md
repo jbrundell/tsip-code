@@ -4,13 +4,13 @@ Currently decoding only a few select TSIP messages.
 Feel free to add decoding for more. :)
 
 
-##Compile:
+## Compile:
 ```
 []$ make readTSIP
 cc     readTSIP.c   -o readTSIP
 ```
 
-##Run:
+## Run:
 ```
 []$ ./readTSIP -b 38400 -n -p /dev/ttyUSB0
 Opening port /dev/ttyUSB0 ...
