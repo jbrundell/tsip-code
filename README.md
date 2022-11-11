@@ -5,12 +5,10 @@ Feel free to add decoding for more. :)
 
 
 Compile:
-
 []$ make readTSIP
 cc     readTSIP.c   -o readTSIP
 
 Run:
-
 []$ ./readTSIP -b 38400 -n -p /dev/ttyUSB0
 Opening port /dev/ttyUSB0 ...
 Looking for next message...
